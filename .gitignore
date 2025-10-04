@@ -1,0 +1,20 @@
+# Python environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+leaderboard_env/
+
+# Database
+db.sqlite3
+
+# Django specific
+/static
+/media
+*.log
+.DS_Store
+
+# Environment variables / Secrets
+.env
+settings_local.py
